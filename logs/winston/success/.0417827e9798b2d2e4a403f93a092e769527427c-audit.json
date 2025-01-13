@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\.0417827e9798b2d2e4a403f93a092e769527427c-audit.json",
+    "files": [
+        {
+            "date": 1736765487922,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-13-16.log",
+            "hash": "cff166b069d77ba6cf9883e583a742c5720fccb9a591255822f2199f05cee155"
+        },
+        {
+            "date": 1736767617629,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-13-17.log",
+            "hash": "cec39a877219c5dcdf9525dfd5f2e363024c1a8491f43e7afe8b37a8df8dfd53"
+        },
+        {
+            "date": 1736769659084,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-13-18.log",
+            "hash": "caf9134bda5bbfc0201c452994a5572fd2b641f21471282397d6ac8d784ca342"
+        },
+        {
+            "date": 1736773511716,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-13-19.log",
+            "hash": "843936d4066742eb70b8f52ddd9ff9b468c6319877fe55f826f6d47a5e7854bc"
+        },
+        {
+            "date": 1736792644757,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-14-00.log",
+            "hash": "d4cd902f6e7a4ae810ddbda42a69b0c133718e161ea7179b52345f708aee4790"
+        },
+        {
+            "date": 1736797693870,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-14-01.log",
+            "hash": "cb0da853e01f7cb424ac4e57bb598c9500236c8fefd63c1e992c84eefeea7f1a"
+        },
+        {
+            "date": 1736798401310,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-14-02.log",
+            "hash": "30fd554ccf6fff33e54c7873d8c19dd1aa6f1ad38984fb1e1ba45e72ebb7f50a"
+        },
+        {
+            "date": 1736804190166,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-14-03.log",
+            "hash": "9a1ad7613384642a86faaafe83803aaad0be4e3198f3c4b9885cde33dbe7a9c8"
+        },
+        {
+            "date": 1736806288703,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-14-04.log",
+            "hash": "fb5b8acf3a4d1309cd9899a121af8a09313d2405ae31e6748ac1e453eee15873"
+        }
+    ],
+    "hashType": "sha256"
+}
