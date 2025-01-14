@@ -17,8 +17,12 @@ const createEventDB = async (eventData: IEvent): Promise<IEvent> => {
   return event;
 };
 
-const getAllEventsDB = async (): Promise<IEvent[]> => {
-  return Event.find();
+const getAllEventsDB = async (creatorId?: string): Promise<IEvent[]> => {
+  const filter: Record<string, any> = {};
+  if (creatorId) {
+    filter.createdBy = creatorId;
+  }
+  return Event.find(filter);
 };
 
 const getEventByIdDB = async (id: string): Promise<IEvent | null> => {
@@ -29,6 +33,18 @@ const updateEventDB = async (
   id: string,
   eventData: Partial<IEvent>
 ): Promise<IEvent | null> => {
+  // Check if eventData contains a name and if the name is being updated
+  if (eventData.name) {
+    const existingEvent = await Event.findOne({
+      name: eventData.name,
+      _id: { $ne: id },
+    });
+
+    if (existingEvent) {
+      throw new Error('An event with this name already exists!');
+    }
+  }
+
   const event = await Event.findByIdAndUpdate(id, eventData, { new: true });
   if (event) {
     const updates: Record<string, { old: any; new: any }> = {};
@@ -49,6 +65,7 @@ const updateEventDB = async (
       updates,
     });
   }
+
   return event;
 };
 

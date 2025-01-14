@@ -23,7 +23,8 @@ const getAllEvents = async (
   next: NextFunction
 ) => {
   try {
-    const events = await EventService.getAllEventsDB();
+    const { creatorId } = req.query;
+    const events = await EventService.getAllEventsDB(creatorId as string);
     res.status(200).json({
       success: true,
       message: 'Events retrieved successfully!',

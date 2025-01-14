@@ -49,6 +49,26 @@
             "date": 1736806288707,
             "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-14-04.log",
             "hash": "017bb12cff94812403585779fb40d3426b74a3aea4b03a9bf8abd79944353120"
+        },
+        {
+            "date": 1736811767016,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-14-05.log",
+            "hash": "a9d014627f07f9b45683fd7c98e86ea4a9ce8e5b7f5a3bcb0bd511d262228415"
+        },
+        {
+            "date": 1736825590285,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-14-09.log",
+            "hash": "0a7b83ff03cb9da1b5ac9e77c8abd9999277ca53cd3efdde11ca0df80c4b9f36"
+        },
+        {
+            "date": 1736845296059,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-14-15.log",
+            "hash": "1180b0d10505314bf744b3a895b3d2eb38e4359bef4408344b2109b29253cd47"
+        },
+        {
+            "date": 1736848856256,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-14-16.log",
+            "hash": "8505e4f51e59213ad869b45e926e4099e019b09ec5b4de3c455e2413c6197041"
         }
     ],
     "hashType": "sha256"
