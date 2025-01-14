@@ -6,11 +6,6 @@
     "auditLog": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\apiRequest\\.a9e3f8f5b42e09bead5fb65fac0413fc9a269f9d-audit.json",
     "files": [
         {
-            "date": 1736765487928,
-            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\apiRequest\\2025-01-13-16.log",
-            "hash": "60165965fb60f2d567f58257d33075730647227ee48c313c5e035366db8dad93"
-        },
-        {
             "date": 1736767617635,
             "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\apiRequest\\2025-01-13-17.log",
             "hash": "c050816e85b233a3ebbb4ce30e3d657bf0ea18f4c02613091c9cb93079a50534"
@@ -84,6 +79,11 @@
             "date": 1736848856259,
             "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\apiRequest\\2025-01-14-16.log",
             "hash": "ae16d5baba39213c986a98042b99169b9d6a2f21f94fc61eecb404b68f378c77"
+        },
+        {
+            "date": 1736852703164,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\apiRequest\\2025-01-14-17.log",
+            "hash": "a868560bcba893acfc93c578ff993beab81886cbde7460199338d074d6e14a5c"
         }
     ],
     "hashType": "sha256"

@@ -69,6 +69,11 @@
             "date": 1736848856251,
             "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-14-16.log",
             "hash": "bf91209464ba6ecaa29bc41e3d024a73a11cf954bd835abab7c515e90e85d466"
+        },
+        {
+            "date": 1736852703157,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\success\\2025-01-14-17.log",
+            "hash": "7fe9c4b75f2b94c35e57600c0b550b0ab3d7ec9fad1d434a6de50240e66800df"
         }
     ],
     "hashType": "sha256"

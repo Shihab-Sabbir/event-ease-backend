@@ -6,11 +6,6 @@
     "auditLog": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\.edc4d6c1b86501eef4fc3fb06a64e7541408d409-audit.json",
     "files": [
         {
-            "date": 1736765487926,
-            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-13-16.log",
-            "hash": "c07a1f04f83604cf1f7a7f713f3d771ea71e4a2de07316d6b9e5df2dc529e3b6"
-        },
-        {
             "date": 1736767617633,
             "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-13-17.log",
             "hash": "0cac51e8a658be2782b38fca6faff7b8a967c6e448533eb84159d4382d7cd5d6"
@@ -69,6 +64,11 @@
             "date": 1736848856256,
             "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-14-16.log",
             "hash": "8505e4f51e59213ad869b45e926e4099e019b09ec5b4de3c455e2413c6197041"
+        },
+        {
+            "date": 1736852703161,
+            "name": "G:\\Task\\EventEase\\express_backend\\logs\\winston\\error\\2025-01-14-17.log",
+            "hash": "6a05b548d7c4ebb9e8705f9e163e789317a9a84b49fb7e61ce41860774348064"
         }
     ],
     "hashType": "sha256"
