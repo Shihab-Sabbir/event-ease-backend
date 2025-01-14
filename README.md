@@ -1,4 +1,4 @@
-Here is a detailed `README.md` for your GitHub repository:
+Here is the updated `README.md` with the deployment information:
 
 ---
 
@@ -13,17 +13,24 @@ EventEase is a platform for managing events and attendees, featuring user authen
 - **User Authentication**:
   - User registration and login using email and password.
   - JWT-based authentication for securing routes.
-  
 - **Event Management**:
   - Create, update, and delete events.
   - Events contain: `name`, `date`, `location`, `maxAttendees`, `createdBy`.
-  
 - **Attendee Registration**:
+
   - Users can register for events, with a cap on `maxAttendees` per event.
 
 - **Real-Time Notifications**:
   - Event registration notifications.
   - Notifications when an event reaches its maximum capacity or when event details are updated.
+
+## Deployment
+
+The backend is deployed and available at:
+
+- **Live URL**: [https://event-ease-backend-nroz.onrender.com/](https://event-ease-backend-nroz.onrender.com/)
+
+You can test the API endpoints and interact with the platform.
 
 ## Prerequisites
 
@@ -78,7 +85,8 @@ Before running this project, make sure you have the following installed:
 
 ### Authentication
 
-1. **POST `/auth/create-user`**  
+1. **POST `/auth/create-user`**
+
    - Description: Register a new user.
    - Request Body:
      ```json
@@ -89,7 +97,7 @@ Before running this project, make sure you have the following installed:
      ```
    - Response: `200 OK` or `400 Bad Request` (if validation fails).
 
-2. **POST `/auth/login`**  
+2. **POST `/auth/login`**
    - Description: Login a user and get a JWT token.
    - Request Body:
      ```json
@@ -102,7 +110,8 @@ Before running this project, make sure you have the following installed:
 
 ### Event Management
 
-1. **GET `/event/`**  
+1. **GET `/event/`**
+
    - Description: Get a list of all events.
    - Response:
      ```json
@@ -118,7 +127,8 @@ Before running this project, make sure you have the following installed:
      ]
      ```
 
-2. **GET `/event/:id`**  
+2. **GET `/event/:id`**
+
    - Description: Get a specific event by ID.
    - Response:
      ```json
@@ -132,7 +142,8 @@ Before running this project, make sure you have the following installed:
      }
      ```
 
-3. **POST `/event/`**  
+3. **POST `/event/`**
+
    - Description: Create a new event.
    - Request Body:
      ```json
@@ -145,11 +156,13 @@ Before running this project, make sure you have the following installed:
      ```
    - Response: `201 Created` or `400 Bad Request` (if validation fails).
 
-4. **POST `/event/register/:id`**  
+4. **POST `/event/register/:id`**
+
    - Description: Register for an event.
    - Response: `200 OK` or `400 Bad Request` (if the event is full).
 
-5. **PUT `/event/:id`**  
+5. **PUT `/event/:id`**
+
    - Description: Update an event.
    - Request Body:
      ```json
@@ -162,7 +175,7 @@ Before running this project, make sure you have the following installed:
      ```
    - Response: `200 OK` or `404 Not Found` (if event does not exist).
 
-6. **DELETE `/event/:id`**  
+6. **DELETE `/event/:id`**
    - Description: Delete an event.
    - Response: `200 OK` or `404 Not Found` (if event does not exist).
 
@@ -192,15 +205,16 @@ io.emit('event-full', { eventId: '1', message: 'Event is full' });
 ## Middleware
 
 ### `auth.ts`
+
 - **Purpose**: Protects routes by ensuring the user is authenticated.
 - **Implementation**: Checks the presence of a valid JWT token in the request header and attaches the user information to the request object.
 
 ### `validateRequest.ts`
+
 - **Purpose**: Validates incoming request data based on the defined Zod schema.
 - **Usage**: Ensures that the data in the request body is in the correct format before reaching the controller.
 
 ---
-
 
 ## Contributing
 
@@ -225,4 +239,4 @@ MIT License. See [LICENSE](./LICENSE) for more details.
 
 ---
 
-This README provides the necessary steps for setting up and using the backend for the EventEase platform. Be sure to follow the instructions closely to ensure smooth setup and development.
+This updated README includes the live URL for the deployed backend. It provides details on how to set up and interact with the backend, as well as contributing guidelines.
